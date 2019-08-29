@@ -1,0 +1,34 @@
+﻿@model List<Entities.Product>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ProductList</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Unidades en existencia</th>
+        </tr>
+        @foreach (var product in Model)
+        {
+    <tr>
+        @*<td>@product.ProductId</td>*@
+        <td>@Html.ActionLink(product.ProductId.ToString(), "Details", new { id = product.ProductId}) </td>
+        <td>@product.ProductName</td>
+        <td>@product.UnitPrice</td>
+        <td>@product.UnitsInStock</td>
+    </tr>
+        }
+    </table>
+</body>
+</html>
