@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWindProxyService", "NWindP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.MVCPLS", "NWind.MVCPLS\NWind.MVCPLS.csproj", "{FD360D56-7FD0-447D-8659-B0B39EF9A034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.WPF", "NWind.WPF\NWind.WPF.csproj", "{F6570E2A-4A8D-46CF-8B40-86E4E87A8FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.ViewModel", "NWind.ViewModel\NWind.ViewModel.csproj", "{628EB57D-0E85-43F7-954A-FA7D9D2C11F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{FD360D56-7FD0-447D-8659-B0B39EF9A034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD360D56-7FD0-447D-8659-B0B39EF9A034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD360D56-7FD0-447D-8659-B0B39EF9A034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6570E2A-4A8D-46CF-8B40-86E4E87A8FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6570E2A-4A8D-46CF-8B40-86E4E87A8FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6570E2A-4A8D-46CF-8B40-86E4E87A8FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6570E2A-4A8D-46CF-8B40-86E4E87A8FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628EB57D-0E85-43F7-954A-FA7D9D2C11F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628EB57D-0E85-43F7-954A-FA7D9D2C11F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628EB57D-0E85-43F7-954A-FA7D9D2C11F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628EB57D-0E85-43F7-954A-FA7D9D2C11F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
